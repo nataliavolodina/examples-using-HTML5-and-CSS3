@@ -1,0 +1,116 @@
+html {
+    font-family: "Lato", sans-serif;
+    border: 3px solid #CCC;
+    margin: 0;
+    padding: 3em;
+    font-size: 18px;
+    line-height: 1.5;
+    background: #FFF;
+    color: #444;
+    width: 60em;
+    border-left: 6px solid #DDD;
+}
+header {
+    width: 100%;
+    padding: 30px 0;
+}
+header h1 {
+    font-weight: lighter;
+    font-size: 50px;
+}
+span {
+    font-size: 60%;
+    color: #EEE;
+}
+
+header nav {
+    display: inline-block; 
+    width: 108%;
+    height: 5%;
+    padding: 3% 0 5% 0;
+    overflow: auto;
+}
+
+header nav > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    padding: 2% 4%;
+    margin: 1px 0;
+}
+h2 {
+    font-weight: 100;
+    
+}
+h1>a {
+    color: #D00; 
+    text-decoration: none;
+}
+
+article h3 {
+    color: #DDD;
+    font-size: 2em; 
+}
+
+article h2 a {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 100%; 
+}
+
+article p:first-letter {
+    float: left;
+    color: #CCC; 
+    font-size: 4.5em;
+    padding: .1em;
+    line-height: 1; 
+}
+
+h4 a {
+    color: #D00;
+    float: right;
+    text-decoration: none; 
+}
+
+footer nav a{
+    color: #D00;
+    text-decoration: none;
+    font-size: small;
+    padding: .1em;
+}
+
+footer {
+    padding: 5%;
+    float: left;
+    clear: both;
+}
+.brooklyn, .vintage {
+    float: left;
+    height: 30%;
+    width: 70%;
+    padding: 1% 2% 2% 0;
+}
+.aboutus {
+    float: right;
+    height: 25%;
+    width: 27%;
+    padding-top: 5%;
+}
+.ad{
+    width: 27%;
+    height: 15%;
+    float: right; 
+}
+.posts{
+    float: right;
+    width: 27%;
+    height: 20%;
+}
+li a {
+    color: #D00; 
+    text-decoration: none;
+}
