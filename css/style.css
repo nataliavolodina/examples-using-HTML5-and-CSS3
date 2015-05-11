@@ -1,0 +1,135 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 1em;
+    padding: 1%;
+    line-height: 1.5;
+	cursor: default;
+}
+header {
+    background-color: #000;
+    border-bottom: 5px solid yellow;
+    padding: 5% 4%;
+    margin: 0;
+}
+header h1 {
+    color: yellow;
+    font-family: "Merriweather", serif;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+header nav {
+    float: right;
+}
+
+header nav a {
+    color: #FFF;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: .5px;
+    margin: 1%;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#slogan {
+    padding: 2%;
+    background-color: #BBB;
+    margin: 0;
+}
+#slogan h1 {
+    text-align: center;
+    font-style: italic;
+    font-family: "Merriweather", serif;
+    font-size: 2em;
+}
+del {
+    color: #AAA;
+}
+ins {
+    text-decoration: none;
+    border-bottom: 4px solid yellow;
+}
+
+#middle {
+    margin: 0;
+    background: url("../images/coworking.jpg") center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 10% 5%;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+}
+
+#middle span {
+    float: right;
+    background-color: rgba(255,255,255,.85);
+    padding: 5%;
+    width: 20%;
+    height: auto;
+    border: 2px solid #EEE;
+    box-shadow: 2px 1px 1px 2px #BBB; 
+    font-family: sans-serif;
+}
+#middle h1 {
+    font-size: 1.5em;
+    font-weight: bolder; 
+}
+#middle button {
+    background-color: yellow;
+    font-family: "Oswald", sans-serif;
+    font-size: 1em;
+    overflow: scroll;
+    padding: 5%;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 50px; 
+    border-radius: 5%;
+    box-shadow: 3px 1px 2px 1px #BBB;
+    border: 1px solid #DDD;
+    margin: auto;
+}
+
+#createprofile, #finddeveloper {
+    float: left;
+    width: 33%;
+    height: 60%;
+    border-right: 1px solid gray;
+    text-align: center;
+    font-size: 2em;
+    
+}
+#finddesigner {
+    float: right;
+    width: 33%;
+    height: 60%;
+    text-align: center;
+    font-size: 2em;
+    
+}
+.bottom {
+    padding: 5% 6% 4% 6%;
+}
+.bottom h1 {
+    font-family: "Merriweather", serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.bottom button {
+   background-color: #CCC;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-size: .5em;
+    padding: 2% 5%;
+    letter-spacing: 1px;
+    width: 60%;
+    height: 30%; 
+    border-radius: 5%;
+    box-shadow: 3px 1px 2px 1px #BBB;
+    border: 1px solid #DDD;
+}
+footer {
+    float: left;
+    background-color: #000;
+    color: white;
+    width: 100%;
+    margin: 1em 0;
+    font-size: 2em;
+}
